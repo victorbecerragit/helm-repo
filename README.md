@@ -16,10 +16,15 @@ git push -u origin main
 *Create a new branch to push index.yaml and the new helm packages to github pages.
 
  git checkout --orphan gh-pages
+
  git add index.yaml ca-webapp-0.1.0.tgz ca-webapp-0.1.1.tgz ca-webapp-0.1.2.tgz
+
  git status
+
  git commit -am "helm packages demo files"
+
  git push origin gh-pages
+
  
  *Test that you can read the index.yaml from the gh-repo
  
