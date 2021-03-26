@@ -7,11 +7,17 @@ $cat index.yaml
  
 echo "# helm-repo" >> README.md
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/victorbecerragit/helm-repo.git
+
 git push -u origin main
+
 
 *Create a new branch to push index.yaml and the new helm packages to github pages.
 
